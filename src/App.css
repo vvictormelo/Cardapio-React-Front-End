@@ -1,0 +1,34 @@
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 100vw;
+    background-color: white;
+}
+
+.container h1, h2 {
+    font-style: italic;
+    color: black;
+}
+.card-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 16px;
+    color: black;
+}
+
+.container button {
+    background-color: #0089e4;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    position: relative;
+    bottom: 16px;
+    right: 24;
+    transition: all 0.1s linear 0.1s;
+}
+
+.container button:hover {
+    box-shadow: rgba(89, 164, 214, 0.2) 0px 7px 7px 0px; 
+    transform: scale(1.1);
+}
